@@ -1,0 +1,59 @@
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Fish
+fish/fish_variables
+fish/fishd.*
+fish/completions/
+fish/completions/fisher.fish
+fish/completions/fzf_configure_bindings.fish
+fish/completions/nvm.fish
+fish/completions/tide.fish
+fish/conf.d/
+fish/functions/fish_prompt.fish
+fish/fish_history
+fish/generated_completions/
+fish/local_config.fish
+fish/fishd.tmp.*
+fish/*.tmp.*
+fish/fish_plugins
+
+# Neovim
+nvim/plugin/
+nvim/plugin/packer_compiled.lua
+nvim/lazy-lock.json
+nvim/.netrwhist
+nvim/undo/
+nvim/swap/
+nvim/backup/
+nvim/sessions/
+nvim/mason/
+nvim/node_modules/
+nvim/package-lock.json
+nvim/yarn.lock
+nvim/lsp/
+nvim/after/plugin/local.lua
+
+# Alacritty
+alacritty/alacritty-theme/*
+themes/
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs and Cache
+*.log
+.cache/
+__pycache__/
+
+# Local env files
+.env
+.env.local
+*.local
